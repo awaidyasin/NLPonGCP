@@ -1,4 +1,3 @@
-
 name: nlpprj
 channels:
   - defaults
@@ -101,6 +100,7 @@ dependencies:
     - smart-open
     - threadpoolctl
     - tqdm
+    - ipywidgets
 prefix: /Users/awaidyasin/miniconda/envs/nlpprj
 
 

@@ -7,7 +7,10 @@ echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
 source ~/.bashrc
 
 # create conda environment as cant install packages into base
-conda env create -f environment.yml && \
-conda activate nlpprjev && \
-python -m ipykernel install --user --name nlpprjev --display-name "Python (nlpprjev)" && \
-echo "conda activate nlpprjev" > .bashrc
+conda env create -f env_nobuild.yml && \
+conda activate nlpprj && \
+python -m ipykernel install --user --name nlpprj --display-name "Python (nlpprj)" && \
+echo "conda activate nlpprj" > .bashrc
+
+#allow widgets to be displayed
+jupyter nbextension enable --py widgetsnbextension
