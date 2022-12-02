@@ -94,7 +94,6 @@ dependencies:
     - pyldavis
     - pytz
     - regex
-    - scikit-learn
     - scipy
     - sklearn
     - smart-open
@@ -104,3 +103,4 @@ dependencies:
 prefix: /Users/awaidyasin/miniconda/envs/nlpprj
 
 
+#sciket-learn not good for LDAMulticore
