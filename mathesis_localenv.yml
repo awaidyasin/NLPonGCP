@@ -248,7 +248,6 @@ dependencies:
     - cchardet==2.1.7
     - chardet==5.1.0
     - coloredlogs==15.0.1
-    - en-core-web-sm==3.3.0
     - exceptiongroup==1.0.4
     - fastprogress==1.0.3
     - flatbuffers==22.11.23
